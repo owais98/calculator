@@ -1,0 +1,35 @@
+body{
+     color: white !important;
+     background-image: url('back1.jpg') !important;
+}
+.containerr{
+    margin: 8% 35%;
+    border: 3px solid white;
+    width: max-content;
+    height: 10% ;
+    text-shadow: 2px 4px 10px black;
+}
+.buttonss{
+    padding: 1%;
+    margin-top: 2%;
+}
+.btn{
+    margin: 2% 1%;
+    width: 22% ;
+    height: 50px;
+    text-shadow: 2px 4px 10px black;
+}
+.result{
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+    
+}
+#eq{
+    width: 72%;
+}
+#cle{
+    width: 97% ;
+}

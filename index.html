@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="containerr">
+        <div class="result">
+            <h3>STANDARD CALCULATOR</h3><br>
+            <input id="res" class="result" type="text">
+        </div>
+        <div class="buttonss">
+            <button type="button" onclick="clearr()" class="btn btn-primary" id="cle"> <h3> Clear </h3></button> <br>
+            <button type="button" onclick="getval('7')" class="btn btn-primary"> <h3> 7 </h3></button>
+            <button type="button" onclick="getval('8')" class="btn btn-primary"> <h3> 8 </h3></button>
+            <button type="button" onclick="getval('9')" class="btn btn-primary"> <h3> 9 </h3></button> 
+            <button type="button" onclick="getval('/')" class="btn btn-primary"> <h3> / </h3></button> <br>
+            <button type="button" onclick="getval('4')" class="btn btn-primary"> <h3> 4 </h3></button>
+            <button type="button" onclick="getval('5')" class="btn btn-primary"> <h3> 5 </h3></button> 
+            <button type="button" onclick="getval('6')" class="btn btn-primary"> <h3> 6 </h3></button> 
+            <button type="button" onclick="getval('*')" class="btn btn-primary"> <h3> x </h3></button> <br>
+            <button type="button" onclick="getval('1')" class="btn btn-primary"> <h3> 1 </h3></button>
+            <button type="button" onclick="getval('2')" class="btn btn-primary"> <h3> 2 </h3></button> 
+            <button type="button" onclick="getval('3')" class="btn btn-primary"> <h3> 3 </h3></button> 
+            <button type="button" onclick="getval('-')" class="btn btn-primary"> <h3> - </h3></button> <br>
+            <button type="button" class="btn btn-primary" onclick="equals()" id="eq"> <h3> = </h3></button>
+            <button type="button" onclick="getval('+')" class="btn btn-primary"> <h3> + </h3></button>
+
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
